@@ -6,10 +6,8 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class ContactProfile extends AppCompatActivity {
 
@@ -22,7 +20,7 @@ public class ContactProfile extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_contact_profile);
+        setContentView(R.layout.activity_personal_contact_profile);
 
         listOfContacts = ((ListOfContacts) this.getApplication()).getContacts();
 
@@ -149,7 +147,7 @@ public class ContactProfile extends AppCompatActivity {
         btn_delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlertDialog.Builder builder = new AlertDialog.Builder(ContactProfile.this);
+                AlertDialog.Builder builder = new AlertDialog.Builder(PersonalContactProfile.this);
 
                 builder.setCancelable(true);
                 builder.setTitle("Delete Contact");
