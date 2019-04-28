@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ComTracks App</string>
+    <string name="title_activity_contact_profile">ContactProfile</string>
+    <string name="AppName">ComTracks</string>
+    <string name="AppDescription"><![CDATA[Communicate & keep track of contacts]]></string>
+    <string name="AllContacts">All Contacts</string>
+    <string name="PersonalContacts">Personal Contacts</string>
+    <string name="BusinessContacts">Business Contacts</string>
+    <string name="Personal" translatable="false">Personal</string>
+    <string name="Business" translatable="false">Business</string>
+
+    <string-array name="types">
+        <item>Add New Contact</item>
+        <item>Personal</item>
+        <item>Business</item>
+    </string-array>
+
+    <string-array name="edit_types">
+        <item>Choose a type of contact</item>
+        <item>Personal</item>
+        <item>Business</item>
+    </string-array>
+</resources>
